@@ -1,0 +1,13 @@
+Jenn Werth
+CISC442 PR1
+
+Contains code for convolution, reduction, expansion, and the
+creation of Laplacian and Gaussian Image Pyramids.
+Using these functions, the code also has a function for image blending using
+Laplacian plane based reconstruction that asks for user clicked blending boundaries.
+
+Function code can be found in pr1_functions.py 
+To results code, run main.py 
+
+NOTE: It is important to open the entire zip / folder in your IDE 
+as the images used for testing are located in folder 'images'
