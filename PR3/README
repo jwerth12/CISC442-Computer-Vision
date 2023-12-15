@@ -1,0 +1,30 @@
+Jenn Werth 
+
+CISC442 PR3: Stereo Analysis
+
+MAIN: 
+To run the program, run the main.py file.
+Each time you run the file, the program will prompt you for parameters and 
+produce disparity maps for all 5 pairs using those parameters. 
+
+OUTPUTS:
+    - VALID MAPS: The valid maps (ones that have run through the validity checks / average neighborhood) can be found in the valid-maps folder
+    - IMAGES: Images used for processing can be found in the images folder
+    - ORIGINAL MAPS: the disparity maps that were initially created (through part 1)
+    and have NOT been passed through validity checks can be found in the disparity-maps folder
+
+RESULTS: 
+The images were created using the following parameters: 
+    - SEARCH RANGE: 80
+    - template_x_size: 9
+    - template_y_size: 9
+
+For each stereo pair (5 total), 3 results were produced: one for each of the following distance measures
+    - SSD
+    - SAD
+    - NCC 
+
+The best reuslts from this implementation were found using SSD (sum of squared differences)
+
+
+
